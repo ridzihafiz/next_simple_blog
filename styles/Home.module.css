@@ -10,6 +10,21 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.cardWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.blogCard {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+  border: 1px dashed whitesmoke;
 }
 
 .footer {
